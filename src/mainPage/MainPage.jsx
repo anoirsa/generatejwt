@@ -38,9 +38,10 @@ const MainPage = () => {
         <Image src={FullStack} />
         <h3>JWT token for DevAcademy 2022</h3>
         <p>
-          This a webpage directed to the team who reviews seperately the backend of the farm
+          This a webpage made by Full-stack developer <span>Anouar Belila</span> directed to the team who reviews seperately the backend of the farm
           management Rest API for requests that require authorization header.
         </p>
+        <p className="note">Note: This is not a frontend version of the app, You find the github of the frontend in the cover letter</p>
         <p>Choose token type:</p>
         <TokenSection>
           <TokenBox
@@ -69,8 +70,7 @@ const MainPage = () => {
         <SeeToken>
             <p>{token}</p>
         </SeeToken>
-        <p className="note">Note: Don't attach "Bearer" with header</p>
-        <p className="note">Note: This is not a frontend version of the app, You find github of the frontend in the cover letter</p>
+        <p className="note">Don't add "Bearer" with header</p>
       </BoxContent>
 
     </Container>

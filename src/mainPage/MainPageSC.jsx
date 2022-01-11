@@ -25,11 +25,17 @@ export const BoxContent = styled.div`
     & > p {
         text-align: center;
         margin-top: 20px;
+        font-size: 14px;
+        font-weight: 300;
+        span {
+            font-weight: 700;
+
+        }
     }
     & > .note {
         font-size: 12px;
         margin-top: 5px;
-        font-weight: 300;
+        font-weight: 500;
     }
 
 `;
@@ -80,7 +86,9 @@ export const SeeToken = styled.div`
         font-size: 11px;
         color: #ffff;
         margin: 15px;
-        text-align: center;
+        text-align: center; 
+     
     }
+    
 `;
 
