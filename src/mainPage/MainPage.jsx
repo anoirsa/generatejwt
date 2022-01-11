@@ -41,7 +41,7 @@ const MainPage = () => {
           This a webpage made by Full-stack developer <span>Anouar Belila</span> directed to the team who reviews seperately the backend of the farm
           management Rest API for requests that require authorization header.
         </p>
-        <p className="note">Note: This is not a frontend version of the app, You find the github of the frontend in the cover letter</p>
+        <p className="note">Note: This is not the frontend version of the app, You find the github of the frontend in the cover letter</p>
         <p>Choose token type:</p>
         <TokenSection>
           <TokenBox
