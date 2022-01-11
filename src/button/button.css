@@ -1,0 +1,22 @@
+.btns {
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    outline: none;
+    border: none;
+    background: rgb(148, 139, 139);
+    margin-top: 30px;
+    border-radius: 5px;
+    color: #ffff;
+    transition: all 300ms ease-out;
+    
+}
+p {
+    text-align: center;
+}
+
+.btns:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: all 300ms ease-out;
+}
